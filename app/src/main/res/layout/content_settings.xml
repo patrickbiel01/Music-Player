@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.patrick.complexgui.SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+    <Button
+        android:id="@+id/toolbarColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change the Toolbar Colour"
+        android:backgroundTint="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/textColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change the Text Colour"
+        android:backgroundTint="@android:color/white"
+        android:layout_below="@id/toolbarColour"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/progressColour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change The Progress Bar Colour"
+        android:backgroundTint="@android:color/white"
+        android:layout_below="@id/textColour"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

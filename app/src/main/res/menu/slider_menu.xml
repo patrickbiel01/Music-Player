@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/seekGreen"
+        android:title="@string/seekGreen" />
+    <item
+        android:id="@+id/seekRed"
+        android:title="@string/seekRed" />
+    <item
+        android:id="@+id/seekBlue"
+        android:title="@string/seekBlue" />
+</menu>

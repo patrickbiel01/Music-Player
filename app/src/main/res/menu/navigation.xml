@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/backButton"
+        android:icon="@mipmap/back"
+        android:title="@string/back"/>
+
+    <item
+        android:id="@+id/toggleButton"
+        android:icon="@mipmap/play"
+        android:title="@string/toggle" />
+
+    <item
+        android:id="@+id/forwardButton"
+        android:icon="@mipmap/forwards"
+        android:title="@string/forward" />
+</menu>

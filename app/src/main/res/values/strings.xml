@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="title_activity_music">MusicActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="notification_smalltext">Continue Listening!</string>
+
+    <string name="back">Previous</string>
+    <string name="toggle">Pause / Play</string>
+    <string name="forward">Next</string>
+
+    <string name="color_blue">Blue</string>
+    <string name="color_ForestGreen">Forest Green</string>
+    <string name="color_red">Red</string>
+
+    <string name="textBlack">Black</string>
+    <string name="textGrey">Grey</string>
+
+    <string name="seekGreen">Green</string>
+    <string name="seekRed">Red</string>
+    <string name="seekBlue">Blue</string>
+</resources>
